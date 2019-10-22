@@ -3,5 +3,5 @@ function ulx.warns( calling_ply )
 end
 
 local mywarn = ulx.command( "WarnZ", "ulx warns", ulx.warns, "!warns" )
-mywarn:defaultAccess( ULib.ACCESS_DEFAULT )
+mywarn:defaultAccess( ULib.ACCESS_ALL )
 mywarn:help( "View your warnings" )
